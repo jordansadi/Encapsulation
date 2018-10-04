@@ -22,11 +22,10 @@ public class Employee {
     private String cubeId;
     private Date orientationDate;
 
-    public Employee(String firstName, String lastName, String ssn, String cubeId) {
+    public Employee(String firstName, String lastName, String ssn) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.ssn = ssn;
-        this.cubeId = cubeId;
     }
 
     public String getFirstName() {
