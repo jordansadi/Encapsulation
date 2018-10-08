@@ -15,13 +15,13 @@ public class OutputService {
         // sllsdkfjdlkfjdkf
     }
     
-//    private Employee employee;
-//    
+    private Employee employee;
+//
 //    public OutputService(Employee e) {
 //        employee = e;
 //    }
-//    
-//    public void outputHrInfomation() {
-//        System.out.println(employee.getLastName() + "completed orientation");
-//    }
+//
+    public void outputHrInfomation() {
+        System.out.println(employee.getLastName() + "completed orientation");
+    }
 }
